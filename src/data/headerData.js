@@ -1,9 +1,9 @@
 import resume from '../assets/pdf/resume.pdf'
-
+import samuel from '../assets/png/samuel.png'
 export const headerData = {
-    name: 'Jane Doe',
+    name: 'Shaik Noor',
     title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
+    desciption:"Passionate Computer Science student with interests in software development, AI/ML, web technologies, Android system customization, and problem-solving. Skilled in building real-world projects, exploring emerging technologies, and continuously learning to develop innovative and efficient solutions. ",
+    image: samuel,
     resumePdf: resume
 }

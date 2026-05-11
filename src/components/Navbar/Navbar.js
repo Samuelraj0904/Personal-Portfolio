@@ -30,22 +30,29 @@ function Navbar() {
     };
 
     const useStyles = makeStyles((t) => ({
-        navMenu: {
-            fontSize: '2.5rem',
-            color: theme.tertiary,
-            cursor: 'pointer',
-            transform: 'translateY(-10px)',
-            transition: 'color 0.3s',
-            '&:hover': {
-                color: theme.primary,
-            },
-            [t.breakpoints.down('sm')]: {
-                fontSize: '2.5rem',
-            },
-            [t.breakpoints.down('xs')]: {
-                fontSize: '2rem',
-            },
-        },
+    navMenu: {
+    fontSize: '2.5rem',
+    color: '#000000',
+    cursor: 'pointer',
+    transform: 'translateY(-10px)',
+    transition: 'color 0.3s',
+
+    border: '2px solid #000000',
+    borderRadius: '10px',
+    padding: '4px',
+
+    '&:hover': {
+        color: '#000000',
+    },
+
+    [t.breakpoints.down('sm')]: {
+        fontSize: '2.5rem',
+    },
+
+    [t.breakpoints.down('xs')]: {
+        fontSize: '2rem',
+    },
+},
         MuiDrawer: {
             padding: '0em 1.8em',
             width: '14em',

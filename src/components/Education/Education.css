@@ -36,9 +36,18 @@
     width: 90%;
     height: 140px;
     padding: 1.5rem;
-    border-radius: 20px;
+    border-radius: 25px;
     margin-bottom: 1.5rem;
-    transition: background-color 200ms ease-in-out;
+    transition: 0.3s ease-in-out;
+
+    background-color: #0a0a0a !important;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 15px rgba(255,255,255,0.05);
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(255,255,255,0.12);
 }
 
 .educard-img {
@@ -49,10 +58,14 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+
+    background-color: #ffffff !important;
+    padding: 10px;
 }
 
 .educard-img > img {
     width: 40px;
+    filter: brightness(0);
 }
 
 .education-details{

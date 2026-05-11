@@ -57,14 +57,17 @@
 
 @media (max-width:600px) {
     .nav-menu{
-        color: var(--primary-2);
-    }
+    color: #000000 !important;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 4px;
+}
     .navbar--container > h1{
         font-size: 2rem;
     }
     .nav-menu:hover{
-        color: var(--primary-2);
-    }
+    color: #000000 !important;
+}
     .MuiDrawer-paper{
       border-radius: 0 !important;
     }

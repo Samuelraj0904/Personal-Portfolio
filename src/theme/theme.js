@@ -1,6 +1,7 @@
 /* eslint-disable */
 import { 
-    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy, 
+    blueThemegirl, blueThemeboy, samuel,
+    bwThemeboy, bwThemegirl,aboutSvg, greenThemeboy, greenThemegirl, orangeThemeboy, 
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
     yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
@@ -74,21 +75,25 @@ export const bwThemeLight = {
 }
 export const bwThemeDark = {
     type: 'dark',
-    primary: '#B6B6B6',
-    primary400: '#B6B6B6',
-    primary600: '#B6B6B6',
-    primary80: '#B6B6B6cc',
-    primary50: '#B6B6B680',
-    primary30: '#B6B6B64d',
-    secondary: '#212121',
-    secondary70: '#212121b3',
-    secondary50: '#21212180',
-    tertiary: '#eaeaea',
-    tertiary80: '#eaeaeacc',
-    tertiary70: '#eaeaeab3',
-    tertiary50: '#eaeaea80',
-    aboutimg1: bwThemeboy,
-    aboutimg2: bwThemegirl,
+
+    primary: '#ffffff',
+    primary400: '#ffffff',
+    primary600: '#ffffff',
+    primary80: '#ffffffcc',
+    primary50: '#ffffff80',
+    primary30: '#ffffff4d',
+
+    secondary: '#000000',
+    secondary70: '#000000b3',
+    secondary50: '#00000080',
+
+    tertiary: '#ffffff',
+    tertiary80: '#ffffffcc',
+    tertiary70: '#ffffffb3',
+    tertiary50: '#ffffff80',
+
+    aboutimg1: aboutSvg,
+    aboutimg2: aboutSvg,
     eduimg: eduBlack,
     expimg: expBlack,
     contactsimg: contactsBlack
